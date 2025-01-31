@@ -44,10 +44,10 @@
   @extend %list;
   font-size: 40px;
   line-height: 1.18;
-
 }
 
 .menu-nav__item:not(:last-child) {
+  @extend %list;
   margin-bottom: 32px;
 }
 
@@ -62,9 +62,9 @@
 
 .menu-contacts {
   @extend %list;
-margin-bottom: 106px;
+  margin-bottom: 106px;
 
-//   margin-bottom: 86px;
+  //   margin-bottom: 86px;
 }
 
 .menu-contacts__item:not(:last-child) {
@@ -86,9 +86,9 @@ margin-bottom: 106px;
 }
 
 .menu-socials {
-    position: absolute;
-    bottom: 68px;
-    // bottom: 48px;
+  position: absolute;
+  bottom: 68px;
+  // bottom: 48px;
   @extend %list;
   display: flex;
 }

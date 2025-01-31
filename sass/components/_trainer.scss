@@ -1,0 +1,63 @@
+// Trainer
+
+.trainer {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 36px;
+  }
+
+  @media screen and (min-width: 768px) {
+    // gap: 130px;
+    justify-content: space-around;
+    // padding-left: 200px;
+    // padding-right: 200px;
+  }
+}
+
+.trainer-card__meta {
+  padding-top: 64px;
+  padding-bottom: 4px;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 36px;
+    padding-bottom: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 64px;
+    max-width: 770px;
+  }
+}
+
+.trainer-card__name {
+  margin-top: 0;
+  margin-bottom: 46px;
+
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.13px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 42px;
+  }
+}
+
+.trainer-card__info {
+  margin-bottom: 90px;
+  padding-left: 70px;
+  padding-right: 70px;
+  color: var(--color-white);
+
+  @media screen and (min-width: 768px) {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 200px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}

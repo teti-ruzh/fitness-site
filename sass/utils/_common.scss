@@ -12,13 +12,13 @@ body {
 }
 
 .section {
-  padding: 60px 0;
+  padding: 65px 0;
   // margin-right: auto;
   // margin-left: auto;
 
-  @media screen and (min-width: 1200px) {
-    padding: 94px 0;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   padding: 94px 0;
+  // }
 }
 
 .section--compressed {
@@ -77,14 +77,14 @@ img {
   margin-bottom: 50px;
 
   color: var(--accent-color);
-  font-size: 28px;
-  line-height: 1.18;
+  font-size: 36px;
+  line-height: 1.67;
   text-align: center;
 
-  @media screen and (min-width: 1200px) {
-    font-size: 36px;
-    line-height: 1.67;
-  }
+  // @media screen and (min-width: 1200px) {
+  //   font-size: 36px;
+  //   line-height: 1.67;
+  // }
 }
 
 .visually-hidden {
